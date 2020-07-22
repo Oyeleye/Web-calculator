@@ -1,4 +1,4 @@
-Install pretier
+Install prettier
 
 prettier eslint-config-prettier
 
