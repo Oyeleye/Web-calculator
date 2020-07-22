@@ -1,0 +1,21 @@
+.App {
+    width: 563px;
+    height: 1218px;
+    background: #000000;
+    color: #ffffff;
+    border-radius: 50px;
+}
+.top {
+    height: 250px;
+    padding: 0 20px;
+
+}
+.display {
+
+}
+.buttons {
+
+}
+.bottom {
+
+}
