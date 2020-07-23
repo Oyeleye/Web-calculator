@@ -4,7 +4,8 @@ import "./Button.css";
 
 const Button = ({content}) => {
     return(
-        <div className="Button">{content}</div>
+        <div className={`Button ${content==='0' ? 'zero' : 
+        '' }`}>{content}</div>
     );
 }
 
