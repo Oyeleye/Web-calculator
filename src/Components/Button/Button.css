@@ -10,7 +10,7 @@
     cursor: pointer;
 }
 .Button.zero {
-    width: 250px;
+    width: 215px;
     grid-column: 1 / span 2;
     border-radius: 57.5px;
     position: relative;
