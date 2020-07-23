@@ -18,4 +18,6 @@ Import index.js file from the App folder to main index.js
 
 Create Button folder and create Button js and Button css files in the Button repo.
 
-Pass in content prop to Button component. Update content prop in index.js file
+Pass in content prop to Button component. Update content prop as symbols and numbers in index.js file
+
+Name Button component TYPES: (AC, ±, % as function) (÷, x, -, + and = symbols as operator)
