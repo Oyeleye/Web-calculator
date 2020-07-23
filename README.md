@@ -21,3 +21,6 @@ Create Button folder and create Button js and Button css files in the Button rep
 Pass in content prop to Button component. Update content prop as symbols and numbers in index.js file
 
 Name Button component TYPES: (AC, ±, % as function) (÷, x, -, + and = symbols as operator)
+
+Add useState and handleButtonPress to index component
+Destructure prop (handleButtonPress) from Button component
