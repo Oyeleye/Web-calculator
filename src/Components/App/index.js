@@ -1,27 +1,59 @@
-import React from "react";
+import React, {useState} from "react";
 import Button from "../Button/Button";
 import './App.css';
 
 const App = () => {
-const [value, setValue] = React.useState("0");
+    const [value, setValue] = useState("0");
+    const [memory, setMemory] = useState(null);
 
-const handleButtonPress = content => () =>{
-    const num = parseFloat(value);
+    const handleButtonPress = content => () =>{
+        const num = parseFloat(value);
 
-    if (content === 'AC') {
-        setValue('0')
+    if (content === "AC") {
+        setValue("0");
+        setMemory(null);
         return;
     }
-    if (content === '±') {
-        setValue( (num * -1).toString());
+    if (content === "±") {
+        setValue((num * -1).toString());
         return;
     }
-    setValue( parseFloat(num + content).toString());
+    if (content === "%") {
+        setValue((num / "100" ).toString());
+        setMemory(null);
+        return;
+    }
+    if (content === "+") {
+        setMemory(parseFloat(value))
+        setValue("0");
+        return;
+    }
+    if (content === "−") {
+        setMemory(parseFloat(value))
+        setValue("0");
+        return;
+    }
+    if (content === "×") {
+        setMemory(parseFloat(value))
+        setValue("0");
+        return;
+    }
+    if (content === "%") {
+        setMemory(parseFloat(value))
+        setValue("0");
+        return;
+    }
+    if (content === "=") {
+        setMemory(null)
+        return;
+    }
+    setValue(parseFloat(num + content).toString());
 };
 
-    return <div className='App'>
+    return(
+            <div className='App'>
             <div className="top">4:43</div>
-            <div className="display">0</div>
+            <div className="display">{value}</div>
             <div className="buttons">
                 <Button 
                     onButtonClick={handleButtonPress} 
@@ -48,7 +80,8 @@ const handleButtonPress = content => () =>{
                 <Button onButtonClick={handleButtonPress} content="=" type="operator" />
             </div>
             <div className="bottom">-</div> 
-        </div>;
+        </div>
+    );
 }
 
 export default App;
