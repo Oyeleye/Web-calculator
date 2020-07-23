@@ -2,7 +2,7 @@
 <strong>iphone calculator replica</strong>
 </h1>
 
-Key Concepts:
+Key Concepts Utilized in Developing this Project:
 - Functional Components in React
 - React Hooks (useState and useEffect)
 - CSS Grid
