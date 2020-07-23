@@ -1,3 +1,7 @@
+<h1>
+<strong>iphone calculator replica</strong>
+</h1>
+
 Install prettier
 
 prettier eslint-config-prettier
