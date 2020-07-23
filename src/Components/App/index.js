@@ -5,6 +5,7 @@ import './App.css';
 const App = () => {
     const [value, setValue] = useState("0");
     const [memory, setMemory] = useState(null);
+    const [operator, setOperator] = useState(null);
 
     const handleButtonPress = content => () =>{
         const num = parseFloat(value);
@@ -12,6 +13,7 @@ const App = () => {
     if (content === "AC") {
         setValue("0");
         setMemory(null);
+        setOperator(null);
         return;
     }
     if (content === "±") {
@@ -24,27 +26,50 @@ const App = () => {
         return;
     }
     if (content === "+") {
-        setMemory(parseFloat(value))
+        setMemory(parseFloat(value));
         setValue("0");
+        setOperator("+");
         return;
     }
     if (content === "−") {
-        setMemory(parseFloat(value))
+        setMemory(parseFloat(value));
         setValue("0");
+        setOperator("−");
         return;
     }
     if (content === "×") {
-        setMemory(parseFloat(value))
+        setMemory(parseFloat(value));
         setValue("0");
+        setOperator("×");
         return;
     }
     if (content === "%") {
-        setMemory(parseFloat(value))
+        setMemory(parseFloat(value));
         setValue("0");
+        setOperator("%");
+        return;
+    }
+    if (content === "÷") {
+        setMemory(parseFloat(value));
+        setValue("0");
+        setOperator("÷");
         return;
     }
     if (content === "=") {
-        setMemory(null)
+        if (!operator) return;
+        else if (operator === "+") {
+            setValue((memory + parseFloat(value)).toString());
+        }
+        else if (operator === "−") {
+            setValue((memory - parseFloat(value)).toString());
+        }
+        else if (operator === "×") {
+            setValue((memory * parseFloat(value)).toString());
+        }
+        else if (operator === "÷") {
+            setValue((memory / parseFloat(value)).toString());
+        }
+        setMemory(null);
         return;
     }
     setValue(parseFloat(num + content).toString());
