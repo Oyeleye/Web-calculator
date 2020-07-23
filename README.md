@@ -24,3 +24,6 @@ Name Button component TYPES: (AC, ±, % as function) (÷, x, -, + and = symbols 
 
 Add useState and handleButtonPress to index component
 Destructure prop (handleButtonPress) from Button component
+Add onClick event to Button component, to click the div in that component and pass in content to the onButtonClick. However, to distinguish what button to press, I passed in content as parameter to handleButtonPress in index.js, set const num to parseFloat(value); and also wrote some conditional statements.
+
+Having 2 arrow functions in handleButtonPress inside index.js, so it doesn't call the function immediately.
