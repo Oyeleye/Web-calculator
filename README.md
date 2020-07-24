@@ -35,3 +35,6 @@ In App component, when you press AC, setMemory back to null, as well as, setValu
 Set % also back to null
 
 To remember that operator has been clicked, I set Operator (useState)
+
+At this point, I realized that the calculator can only perform 2 operations, at a time, and you need to reset it with AC functionality, to carry out another calculation. E.g 2+ 1 would give you the right answer 3, but 1 + 2+ 3 will not give you the right answer 6, since we now have more than 2 numbers to calculate. HERE IS HOW I SOLVED THAT----
+If operator is not =/= null(that is, if we have previous operation), then give other conditional statements in equals sign to other symbols, too.
