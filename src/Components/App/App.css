@@ -1,24 +1,24 @@
 .App {
-    width: 563px;
-    height: 1218px;
+    width: 281.5px;
+    height: 609px;
     background: #000000;
     color: #ffffff;
-    border-radius: 50px;
-    padding: 20px;
+    border-radius: 25px;
+    padding: 10px;
 }
 .top {
-    height: 250px;
-    padding: 0 20px;
+    height: 125px;
+    padding: 0 10px;
 }
 .display {
-    font-size: 130px;
-    margin-bottom: 20px;
-    font-weight: 300;
+    font-size: 65px;
+    margin-bottom: 10px;
+    font-weight: 150;
     text-align: right;
 }
 .buttons {
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 10px;
     grid-template-rows: repeat(5, 1fr);
     grid-template-columns: repeat(4, 1fr);
 }
