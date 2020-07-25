@@ -1,3 +1,7 @@
+.Body {
+    background: #cd3cf1;
+}
+
 .App {
     width: 281.5px;
     height: 609px;
@@ -5,6 +9,7 @@
     color: #ffffff;
     border-radius: 25px;
     padding: 10px;
+    box-shadow: 5px 10px 10px #2b0335;
 }
 .top {
     height: 125px;
