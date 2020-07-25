@@ -1,5 +1,5 @@
 <h1>
-<strong>iphone calculator replica</strong>
+<strong>Web calculator</strong>
 </h1>
 
 Key Concepts Utilized in Developing this Project:
