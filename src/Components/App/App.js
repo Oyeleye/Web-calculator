@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import Button from "../Button/Button";
+import comma from "../comma/comma";
 import './App.css';
 
 const App = () => {
@@ -153,10 +154,10 @@ const App = () => {
                 <div className="App">
                     <div className="top">
                         <div className="time">
-                            {time.getHours()}:{time.getMinutes()}
+                            {time.getHours().toString().padStart(2,"0")}:{time.getMinutes().toString().padStart(2,"0")}
                         </div>
                     </div>
-                    <div className="display">{value}</div>
+                    <div className="display">{comma(value)}</div>
                     <div className="buttons">
                         <Button 
                             onButtonClick={handleButtonPress} 
@@ -182,7 +183,7 @@ const App = () => {
                         <Button onButtonClick={handleButtonPress} content="." />
                         <Button onButtonClick={handleButtonPress} content="=" type="operator" />
                     </div>
-                    <div className="bottom">-</div> 
+                    <div className="bottom" /> 
                 </div>
             </div>
 
