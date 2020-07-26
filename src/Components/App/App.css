@@ -1,5 +1,8 @@
 .Body {
     background: #cd3cf1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 .App {
     background: #000000;

@@ -7,7 +7,8 @@ const App = () => {
     const [value, setValue] = useState("0");
     const [memory, setMemory] = useState(null);
     const [operator, setOperator] = useState(null);
-    const [time, setTime] = useState(new Date());
+    const [time] = useState(new Date());
+
 
     const handleButtonPress = content => () =>{
         const num = parseFloat(value);
