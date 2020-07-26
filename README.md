@@ -53,3 +53,7 @@ In the equal symbol, if value at value.length minus 1, then we have typed in a d
 
 
 Add time, using useState to setTime to new Date, and get hours and also get minutes to display at the top of the app. This will show real time, when the app is open.
+
+To have the hours and minutes of the time from 1 to 9 show zero before them, e.g. 1 displays 01, 2 displays 02, etc., add to string and padStart to minutes and set the padStart to 2, and pad it with "0". Do the same with hours.
+
+
