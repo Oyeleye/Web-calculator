@@ -45,3 +45,11 @@ setValue changes to setMemories
 And ELSE, we will only be setting the latter memory in any of the symbols, if it is not any if the setMemory already established in the conditional statements in any given symbol
 
 Also, remove the first toString in every symbol conditional statements
+
+DECIMAL POINT
+Add decimal point "." .. Also, check if there is a decimal point, already, to avoid adding it multiple times. and add value the decimal point. All these done, sing conditional statements.
+
+In the equal symbol, if value at value.length minus 1, then we have typed in a dot ( === "."). So, set value plus the content, else  setValue(as what we had in the equal symbol already.)
+
+
+Add time, using useState to setTime to new Date, and get hours and also get minutes to display at the top of the app. This will show real time, when the app is open.
