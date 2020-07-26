@@ -57,3 +57,4 @@ Add time, using useState to setTime to new Date, and get hours and also get minu
 To have the hours and minutes of the time from 1 to 9 show zero before them, e.g. 1 displays 01, 2 displays 02, etc., add to string and padStart to minutes and set the padStart to 2, and pad it with "0". Do the same with hours.
 
 
+Add comma after every 3 numbers displayed, by creating a comma component and importiing it to App, as well as passing value to it on the display {comma(value)}.
