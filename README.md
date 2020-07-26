@@ -1,6 +1,7 @@
 <h1>
 <strong>Web calculator</strong>
 </h1>
+<img src="src/Components/images/calculatorImage.jpg" />
 
 Key Concepts Utilized in Developing this Project:
 - Functional Components in React
