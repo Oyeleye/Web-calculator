@@ -1,15 +1,15 @@
 .Body {
     background: #cd3cf1;
 }
-
 .App {
-    width: 281.5px;
-    height: 609px;
     background: #000000;
-    color: #ffffff;
     border-radius: 25px;
-    padding: 10px;
     box-shadow: 5px 10px 10px #2b0335;
+    color: #ffffff;
+    height: 609px;
+    padding: 10px;
+    position: relative;
+    width: 281.5px;
 }
 .top {
     height: 125px;
@@ -17,8 +17,8 @@
 }
 .display {
     font-size: 65px;
-    margin-bottom: 10px;
     font-weight: 150;
+    margin-bottom: 10px;
     text-align: right;
 }
 .buttons {
@@ -26,4 +26,13 @@
     grid-gap: 10px;
     grid-template-rows: repeat(5, 1fr);
     grid-template-columns: repeat(4, 1fr);
+}
+.bottom {
+    position: absolute;
+    width: 100px;
+    height: 2.5px;
+    background: #ffffff;
+    bottom: 5px;
+    left:33%;
+    border-radius:4px;
 }
