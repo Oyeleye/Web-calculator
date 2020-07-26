@@ -9,6 +9,9 @@
     justify-content: center;
     cursor: pointer;
 }
+.Button:hover {
+    background: rgb(121, 120, 120);
+}
 .Button.zero {
     width: 85px;
     grid-column: 1 / span 2;
@@ -21,6 +24,13 @@
     color:#000000;
     background: #a5a5a5;
 }
+.Button.function:hover {
+    background: #e2e2e2;
+}
 .Button.operator {
     background: #cd3cf1;
+}
+.Button.operator:hover {
+    background: rgb(211, 171, 209);
+    color: #cd3cf1;
 }
