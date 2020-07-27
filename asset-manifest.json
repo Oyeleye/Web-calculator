@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/github.io/Web-calculator/static/css/main.0a0a0004.chunk.css",
+    "main.js": "/github.io/Web-calculator/static/js/main.23028ce2.chunk.js",
+    "main.js.map": "/github.io/Web-calculator/static/js/main.23028ce2.chunk.js.map",
+    "runtime-main.js": "/github.io/Web-calculator/static/js/runtime-main.90ba1ff2.js",
+    "runtime-main.js.map": "/github.io/Web-calculator/static/js/runtime-main.90ba1ff2.js.map",
+    "static/js/2.33de511c.chunk.js": "/github.io/Web-calculator/static/js/2.33de511c.chunk.js",
+    "static/js/2.33de511c.chunk.js.map": "/github.io/Web-calculator/static/js/2.33de511c.chunk.js.map",
+    "index.html": "/github.io/Web-calculator/index.html",
+    "precache-manifest.826776a693ddbaeb5b947cba8886b936.js": "/github.io/Web-calculator/precache-manifest.826776a693ddbaeb5b947cba8886b936.js",
+    "service-worker.js": "/github.io/Web-calculator/service-worker.js",
+    "static/css/main.0a0a0004.chunk.css.map": "/github.io/Web-calculator/static/css/main.0a0a0004.chunk.css.map",
+    "static/js/2.33de511c.chunk.js.LICENSE.txt": "/github.io/Web-calculator/static/js/2.33de511c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90ba1ff2.js",
+    "static/js/2.33de511c.chunk.js",
+    "static/css/main.0a0a0004.chunk.css",
+    "static/js/main.23028ce2.chunk.js"
+  ]
+}
