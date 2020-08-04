@@ -1,6 +1,11 @@
 <h1>
-<strong>Web calculator</strong>
+  <a href="https://web-calculator-c5155.firebaseapp.com/"
+  title="Click to view calculator"
+  >
+    Web calculator
+  </a>
 </h1>
+
 <img src="src/Components/images/calculatorImage.jpg" title="Web calculator" />
 
 Key Concepts Utilized in Developing this Project:
